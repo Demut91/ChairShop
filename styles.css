@@ -1,0 +1,1107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(img/slider_img.jpg);
+    position: relative;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    color: #8c8c8c;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu-linkS {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    color: #8c8c8c;
+    text-decoration: none;
+    padding: 10px 13px;
+    opacity: 0.8;
+}
+
+.menu-linkS:hover {
+    opacity: 0.5;
+    border-bottom: none;
+}
+
+.menu-link:hover {
+    color: #212121;
+    border-bottom: 3px solid #8c8c8c;
+}
+
+.menu li:nth-child(6):hover {
+    border-bottom: none;
+}
+
+
+.menu-link-active {
+    text-decoration: none;
+    border-bottom: 3px solid #212121;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 13px;
+    text-transform: uppercase;
+    color: #212121;
+
+}
+
+.slider-text {
+    margin-top: 283px;
+}
+
+.slider-trending {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #43a047;
+}
+
+.slider-h2 {
+    letter-spacing: -3px;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.slider-content {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #6c6c6c;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #212121;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px 0px rgba(33, 33, 33, 0.34);
+    width: 220px;
+    height: 45px;
+    text-align: center;
+    border-radius: 22.5px;
+    line-height: 45px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button:hover {
+    box-shadow: 0 4px 8px 2px rgba(33, 33, 33, 0.35);
+}
+
+
+.button:active {
+    box-shadow: none;
+}
+
+.pagination {
+    position: absolute;
+    width: 1170px;
+    text-align: center;
+    bottom: 19px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: #c7c7c7;
+    border-radius: 20.0px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.circle:hover {
+    background-color: #212121;
+}
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin-bottom: 0px;
+}
+
+/* стили 2 блока */
+
+.block2 {
+    height: 609px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.menu2 {
+    margin-top: 120px;
+    float: left;
+}
+
+.menu-list2 {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.menu2-link {
+    text-decoration: none;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #6c6c6c;
+    padding-left: 30px;
+}
+
+.menu2-link:hover {
+    color: #212121;
+    border-bottom: 3px solid #6c6c6c;
+}
+
+.menu2-link-active {
+    text-decoration: none;
+    border-bottom: 3px solid #212121;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #212121;
+}
+
+.button2 {
+    margin-top: 138px;
+    display: block;
+    float: right;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.button2:hover {
+    opacity: 0.5;
+}
+
+
+.block2container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1170px;
+    height: 270px;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 120px;
+}
+
+.b2fon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(img/back.jpg);
+}
+
+.b2fon:hover {
+    background-image: none;
+}
+
+.block2-1 {
+    width: 270px;
+    height: 270px;
+    background-image: url(img/block2_product1.jpg);
+    display: flex;
+    
+}
+
+.block2-2 {
+    outline: 1px solid #ccc;
+    width: 270px; 
+    height: 270px;
+    background-image: url(img/block2_product2.jpg);
+}
+
+.block2-3 {
+    outline: 1px solid #ccc;
+    width: 270px;
+    height: 270px;
+    background-image: url(img/block2_product3.jpg);
+}
+
+.block2-4 {
+    outline: 1px solid #ccc;
+    width: 270px;
+    height: 270px;
+    background-image: url(img/block2_product4.jpg);
+}
+.none:hover {
+    outline: none;
+}
+.block2-link {
+    display: inline-block;
+    background-color: #212121;
+    text-decoration: none;
+    box-shadow: 0px 2px 5px 0px rgba(33, 33, 33, 0.34);
+    width: 56px;
+    height: 56px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.block2-link:hover {
+    background-color: #ccc;
+}
+
+.block2-h4 {
+    font-family: 'Montserrat';
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #212121;
+}
+
+.arrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+
+}
+
+.block2-content {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #6c6c6c;
+    text-align: center;
+}
+
+
+/* стили 3 блока */
+
+
+.block3 {
+    height: 683px;
+    background-color: #ccc;
+    display: flex;
+}
+
+.block3text {
+    margin-top: 228px;
+}
+
+.block3product1 {
+    padding-left: 50px;
+    width: 683px;
+    height: 683px;
+    background-image: url(img/block3_product1.jpg);
+}
+
+.block3product2 {
+    padding-left: 50px;
+    width: 683px;
+    height: 683px;
+    background-image: url(img/block3_product2.jpg);
+
+}
+
+.block3-exclusive {
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #1e88e5;
+    margin-bottom: 18px;
+}
+
+.block3-h3 {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #212121;
+}
+
+.block3-content {
+    margin-bottom: 33px;
+    margin-top: 24px;
+    font-size: 14.1px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #6c6c6c;
+    width: 374px;
+}
+
+/* стили 4 блока */
+
+
+.block4 {
+    height: 1108px;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+.block4text {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #212121;
+    float: left;
+    margin-top: 119px;
+
+}
+
+.block4-main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1170px;
+    height: 770px;
+    position: absolute;
+    bottom: 120px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+
+.block4-main a {
+    height: 370px;
+    outline: solid 1px #9c9c9c;
+
+}
+
+.block4-main a:hover {
+    outline: none;
+}
+
+
+/* стили 5  блока */
+
+
+.slider2 {
+    height: 800px;
+    background-image: url(img/slider2.jpg);
+    position: relative;
+}
+
+.slider2-text {
+    padding-top: 287px;
+}
+
+.slider2-Hotdeal {
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    color: #e53935;
+}
+
+.slider2-FishnetChair {
+    font-size: 62px;
+    line-height: 72px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.slider2-content {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    width: 458px;
+    color: #6c6c6c;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* описание 6 блока */
+
+.block6 {
+    background-color: #ffffff;
+    height: 810px;
+    display: flex;
+}
+
+.b6 {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border: 1px solid #212121;
+    background-color: #ccc;
+    width: 570px;
+    height: 570px;
+    background-image: url(img/block6_product1.jpg);
+}
+
+.block6-product1 {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    background-image: url(img/block6_product1.jpg);
+    width: 570px;
+    height: 570px;
+}
+
+.block6-container {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 570px;
+    height: 570px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.block6-element {
+    width: 270px;
+    height: 270px;
+}
+
+.block6-product2 {
+    background-image: url(img/block6_product2.jpg);
+}
+
+.block6-product3 {
+    background-image: url(img/block6_product3.jpg);
+}
+
+.block6-product4 {
+    background-image: url(img/block6_product4.jpg);
+}
+
+.block6-product5 {
+    background-image: url(img/block6_product5.jpg);
+}
+
+.block6text {
+    margin-top: 180px;
+    margin-left: 30px;
+}
+
+.block6-exclusive {
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #1e88e5;
+}
+
+.block6-h3 {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #212121;
+}
+
+.block6-content {
+    font-family: 'Montserrat';
+    font-size: 14.1px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #6c6c6c;
+    width: 332px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.borderFORall:hover {
+    outline: 1px solid black;
+}
+
+/* стили 7 блока */
+
+.block7 {
+    height: 516px;
+    background-image: url(img/phone.jpg);
+}
+
+.block7-text {
+    padding-top: 125px;
+    padding-left: 99px;
+}
+
+.block7-mobileapp {
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6c6c6c;
+}
+
+.block7-h2 {
+    font-family: 'Montserrat';
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #212121;
+    width: 507px;
+
+}
+
+.block7-content {
+    font-family: 'Montserrat';
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #6c6c6c;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.block7but {
+    display: inline-block;
+    float: left;
+    width: 135px;
+    height: 40px;
+    margin-left: 99px;
+}
+
+.google {
+    background-image: url(img/google_play.png);
+}
+
+.appstore {
+    background-image: url(img/app_store.png);
+    margin-left: 10px;
+}
+
+
+/*стили футера*/
+
+
+.footer {
+    background-color: #f7f7f7;
+    height: 384px;
+    position: relative;
+}
+
+.footer-top {
+    position: absolute;
+    top: 120px;
+}
+
+.footer-top-left {
+    position: absolute;
+    margin-left: 99px;
+}
+
+.footer-top-middle {
+    display: inline-block;
+    position: absolute;
+    margin-left: 399px;
+}
+
+.footer-top-right {
+    display: inline-block;
+    position: absolute;
+    margin-left: 899px;
+}
+
+.footer-title {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    width: 280px;
+}
+
+.footer-top-left-text {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    width: 240px;
+    margin-top: 24px;
+}
+
+.footer-top-middle-left {
+    margin-top: 20px;
+    position: absolute;
+}
+
+.footer-top-middle-right {
+    margin-top: 20px;
+    position: absolute;
+    left: 235px;
+    width: 200px;
+}
+
+.footer-useful-info {
+    list-style-type: none;
+    color: ;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+
+
+.footer-useful-info a {
+    text-decoration: none;
+    color: #212121;
+}
+
+.footer-useful-info a:hover {
+    color: #6c6c6c;
+}
+
+.footer-top-right-text {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    width: 380px;
+    margin-top: 24px;
+}
+
+.footer-email {
+    background-color: #ffffff;
+    width: 370px;
+    height: 48px;
+    margin-top: 26px;
+}
+
+.footer-email input {
+    height: 48px;
+    width: 300px;
+    padding-left: 19px;
+    border: none;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.footer-email-icon {
+    float: right;
+    margin-top: 16px;
+    margin-right: 14px;
+}
+
+.footer-bottom-left {
+    position: absolute;
+    left: 98px;
+    bottom: 39px;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+.footer-bottom-middle {
+    position: absolute;
+    width: 1366px;
+    bottom: 36px;
+    text-align: center;
+}
+
+.footer-bottom-right {
+    position: absolute;
+    left: 919px;
+    bottom: 38px;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+/*стили страницы Контакты" */
+
+.contacts-main {
+    height: 360px;
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+.contacts-text {
+    margin-top: 171px;
+}
+
+.contacts-h2 {
+    font-size: 62px;
+    font-weight: 300;
+    color: #212121;
+    line-height: 72px;
+
+}
+
+.contacts-block {
+    padding-top: 71px;
+    padding-bottom: 122px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Csize {
+    height: 370px;
+    width: 370px;
+    border: 1px solid #9c9c9c;
+    display: inline-block;
+    text-align: center;
+}
+
+.Csize:hover {
+    opacity: 0.6;
+}
+
+.C1 {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+
+.CH2 {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.Cdesc {
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+/*стили fo PRODUCTS*/
+
+.products-main {
+    height: 360px;
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+.menu3 {
+    margin-top: 71px;
+    margin-bottom: 73px;
+    float: left;
+}
+
+.menu-list1 {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    color: #6c6c6c;
+    text-decoration: none;
+    padding: 10px 13px;
+
+
+}
+
+.menu-link1:hover {
+    border-bottom: 3px solid #ccc;
+    color: #212121;
+}
+
+.menu-link1-active {
+    text-decoration: none;
+    border-bottom: 3px solid #212121;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 13px;
+    text-transform: uppercase;
+    color: #212121;
+
+}
+
+.center {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.center a:hover {
+    opacity: 0.5;
+}
+
+.OPR {
+    clear: both;
+}
+
+.products-text {
+    margin-top: 140px;
+}
+
+.hrefy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.hrefy a {
+    margin-bottom: 30px;
+}
+
+.OPR a {
+    height: 370px;
+    outline: solid 1px #9c9c9c;
+}
+
+.OPR a:hover {
+    outline: none;
+}
+
+.block2chair {
+    height: 683px;
+    background-color: #ccc;
+    display: flex;
+}
+
+
+/*стили для деталей товара CHAIR*/
+
+.chair-main {
+    height: 119px;
+    position: relative;
+}
+
+.aho-menu {
+    background-color: #f4f4f4;
+    height: 70px;
+    margin-bottom: 73px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-list2 {
+    list-style-type: none;
+    float: left;
+    padding-top: 24px;
+}
+
+.menu-link2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    font-weight: 700;
+    color: #6c6c6c;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu-link2:hover {
+    color: #212121;
+}
+
+.menu-link2-active {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+
+.fishnet-container {
+    display: block;
+}
+
+.images {
+    float: left;
+}
+
+.smallPic a:first-child :hover {
+    opacity: 0.5;
+}
+
+.smallPic a:nth-child(2) :hover {
+    opacity: 0.5;
+}
+
+
+.description {
+    float: right;
+    text-align: center;
+    width: 499px;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    padding-right: 138px;
+}
+
+.textdesc {
+    text-align: left;
+    color: #212121;
+    padding-top: 49px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+
+}
+
+.smallPic {
+    display: flex;
+    justify-content: center;
+}
+
+.price {
+    display: inline;
+    font-size: 36px;
+    line-height: 24px;
+    letter-spacing: 4px;
+}
+
+.digit {
+    display: inline;
+    line-height: 70px;
+    font-size: 72px;
+}
+
+.BIGbutton {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4.4px;
+    color: #ffffff;
+    background-color: #f44336;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    width: 510px;
+    height: 71px;
+    text-align: center;
+    border-radius: 35px;
+    line-height: 24.01px;
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: bottom;
+    border: none;
+    cursor: pointer;
+}
+
+.BIGbutton:hover {
+    box-shadow: 0 4px 8px 2px rgba(33, 33, 33, 0.35);
+}
+
+.BIGbutton:focus {
+    outline: none;
+}
+
+.BIGbutton:active {
+    box-shadow: none;
+}
+
+
+.prefooter {
+    clear: both;
+    padding-top: 245px;
+    padding-bottom: 40px;
+}
+
+
+.RELATED {
+    clear: both;
+}
+
+.prefooter-text {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    padding-bottom: 55px;
+    float: left;
+}
+
+.RELATED {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.RELATED a {
+    margin-bottom: 30px;
+    height: 370px;
+    outline: solid 1px #9c9c9c;
+}
+
+.RELATED a:hover {
+    outline: none;
+}
+
+.button3 {
+    display: block;
+    float: right;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #212121;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+.button3:hover {
+    opacity: 0.5;
+}
